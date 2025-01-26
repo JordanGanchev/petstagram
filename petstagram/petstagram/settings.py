@@ -1,4 +1,4 @@
-
+from operator import truediv
 from pathlib import Path
 
 from django.conf.global_settings import MEDIA_ROOT
@@ -7,13 +7,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-l6m4w+o*!jhna5!1)^%#vg9vl@e8j=1^f5tb+q&-8&4fy4o**e"
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '192.168.x.x',
-    'example.com',
+    # 'localhost',
+    # '127.0.0.1',
+    # '192.168.x.x',
+    # 'example.com',
 ]
 
 INSTALLED_APPS = [

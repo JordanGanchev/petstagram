@@ -11,9 +11,9 @@
                 <div class="profile_img">
                     <div class="image">
                         <!-- Pet URL Image -->
-                        <img src="https://encrypted-tbn0.gstatic.com/static/images?q=tbn:ANd9GcTgoIHq82qLYnvomfz5ZkW5CLQ8VNxCyI-hUw&usqp=CAU"
-                             alt="img8">
+                        <img src="{% static 'images/person.png' %}" alt="img8">
                     </div>
+<!--                    "https://encrypted-tbn0.gstatic.com/static/images?q=tbn:ANd9GcTgoIHq82qLYnvomfz5ZkW5CLQ8VNxCyI-hUw&usqp=CAU"-->
                 </div>
                 <div class="personal">
                     <div class="edit">
@@ -40,9 +40,7 @@
 
         <div class="pet-posts">
 
-            <!-- IF Photos Start Pet Photos Post Section -->
 
-            <!-- Start First Pet Photo Post -->
             <div class="card">
                 <div class="top">
                     <!-- User Details and image location -->
@@ -131,9 +129,7 @@
                     <!--  -->
                 </div>
             </div>
-            <!-- End  First Pet Photo Post -->
 
-            <!-- Start Second Pet Photo Post -->
             <div class="card">
                 <div class="top">
                     <!-- User Details and image location -->
@@ -223,11 +219,7 @@
                     <!--  -->
                 </div>
             </div>
-            <!-- End Second Pet Photo Post -->
 
-            <!-- IF Photos End Pet Photos Post Section -->
-
-            <!-- IF NOT Photos Show No Post Image -->
             <img class="no-posts" src="{% static 'images/no_posts.png' %}" alt="no posts image">
 
         </div>
